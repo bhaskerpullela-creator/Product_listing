@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+:root{
+    background: #e6efe8;
+    padding-left: 60px;
+}
+.container{
+     max-width: 1500px;
+      margin: 32px;
+      padding: 0 16px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.controls{
+     padding: 10px 12px;
+      border-radius: 20px;
+      border: 1px solid black;
+      font-size: 14px;
+}
+input{
+    width: 499px;
+    box-sizing: border-box;
+}
+input:hover{
+    border: 2px solid #0adf5885;
+}
+.box{
+    position: absolute;
+    max-width: 1400px;
+    height: 420px;
+    border-radius: 20px;
+    margin-top: 35px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    box-shadow: 0 4px 12px rgba(14, 14, 14, 0.06)
+
+     
+}
+
+/*skeleton*/
+.skeleton {
+      height: 72px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+      animation: pulse 1.2s infinite;
+}
+.img{
+    width: 100%;
+    height: 220px;
+    align-items: top;
+    border-radius: 17px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+h4{
+    text-align: center;
+    font-weight: 500;
+}
+
+.product-list:hover{
+    box-shadow: 0 8px 24px rgba(68, 62, 62, 0.08);
+    transform: translateY(-6px)scale(1.02);
+}
+.controls:hover{
+    box-shadow: 0 8px 24px rgba(68, 62, 62, 0.08);
+}
+.whislist{
+    top: -40px;
+    right: 12px;
+    background: #ffffff;
+    display: grid;
+    
+}
+button{
+    height: 35px;
+    width: 35px;
+    background-color: floralwhite;
+    border-style: none;
+    border: none;
+}
+button:hover{
+    transform: translateY(2px)scale(1.02);
+    background-color: rgb(226, 207, 207);
+}
+.img:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+.card1{
+    width: 1320px;
+    height: 600px;
+     margin-top: 700px;
+     box-shadow: 0 4px 12px rgba(32, 31, 31, 0.06);
+}
+.verify img{
+    top: 282px;
+    left: auto;
+    position: absolute;
+}
+.summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      font-size: 14px;
+    }
+
+    .versions {
+      margin-top: 20px;
+    }
+
+    .versions li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .summary{
+        text-align: center;
+    }
+
+    .disclaimer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px dashed #e5e7eb;
+      font-size: 12px;
+      color: #6b7280;
+    }
+    h2{
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 80px;
+
+    }
+    h6{
+        font-weight: 400;
+        text-align: center;
+        font-size: medium;
+    }
+    ul{
+        text-align: center;
+    }
